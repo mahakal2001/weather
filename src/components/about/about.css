@@ -1,0 +1,112 @@
+/* about me page start */
+
+
+.menu{
+    padding: 10%;
+    
+    background-color: rgb(56, 182, 182);
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.constainerf{
+    text-align: center;
+    width: 50%;
+    
+}
+ 
+
+
+.constainerf input{
+    margin: 7px;
+    width: 40%;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    background-color: rgb(238, 230, 230);
+}
+
+.textarea{
+    width: 40%;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    background-color: rgb(248, 240, 240);
+}
+
+.constainerf button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    cursor: pointer;
+    width: 100px;
+    font-size: 1.1rem;
+}
+
+.constainerf button:hover{
+    transform: scale(1.1);
+}
+
+.rightside{
+    margin: 50px;
+}
+
+
+
+.rightside img{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 32px;
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+}
+
+.menu::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 480px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .constainerf{
+        width: 100%;
+    }
+    .constainerf input{
+        width: 90%;
+    }
+    .textarea{
+        width: 90%;
+    }
+
+    .rightside{
+        width: 100%;
+    }
+
+    /* weater page */
+    #submitBtn{
+        width: 100px;
+    }
+}
+
+
+/* about me page end */

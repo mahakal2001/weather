@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+#root {
+  --primary-bg: #fff;
+  --secondary-bg: #FC5528;
+  --card-bg: #F0F2F5;
+  --gold-color: #FFD700;
+  --light-font: #969696;
+}
