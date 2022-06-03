@@ -7,7 +7,7 @@ function About() {
            
             <div className="menu">
                 <div className="constainerf">
-                    <form action="mailto:bhaktabhim2001@gmail.com" method="post" enctype="text/plain">
+                    <form action="https://formsubmit.co/efbf160df9401f83ad37c819f1bf0b36" method="POST">
 
                         <p><input type="text" placeholder="Your Name" name="Name" /></p>
                         <p><input type="email" placeholder="Email Name" name="email" /></p>

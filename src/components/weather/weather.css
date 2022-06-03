@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital@0;1&display=swap');
 body{
     font-family: 'Tiro Gurmukhi', serif;
-background-image: url("./img4.jpg");
 
-    background-size: 100%;
+
+    
 }
 
 .App{
@@ -13,8 +13,9 @@ background-image: url("./img4.jpg");
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white
-  
+   
+    background-image: url("./img4.jpg");
+    background-size: 100%;
   }
   
   .weather{

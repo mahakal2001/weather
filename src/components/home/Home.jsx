@@ -1,4 +1,5 @@
 import React from 'react'
+import "./home.css";
 
 function Home() {
     return (
@@ -20,13 +21,13 @@ function Home() {
                                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img class="w-100" src="images/b1.jpeg" alt="First slide" width="500" height="400" />
+                                            <img class="w-100" src="images/img.jpg" alt="First slide" width="500" height="400" />
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="w-100" src="images/b3.jpeg" alt="Second slide" width="500" height="400" />
+                                            <img class="w-100" src="images/img2.jpg" alt="Second slide" width="500" height="400" />
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="w-100" src="images/b2.jpeg" alt="Third slide" width="500" height="400" />
+                                            <img class="w-100" src="images/img3.webp" alt="Third slide" width="500" height="400" />
                                         </div>
                                     </div>
                                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

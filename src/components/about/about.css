@@ -4,7 +4,7 @@
 .menu{
     padding: 10%;
     
-    background-color: rgb(56, 182, 182);
+    background: linear-gradient(to bottom, rgba(224, 243, 165, 0.979), rgb(245, 210, 12));
     color: white;
     display: flex;
     flex-direction: row;
